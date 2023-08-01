@@ -1,0 +1,12 @@
+{
+    "name": "Snapsrch",
+    "icon": "icon.png",
+    "identifier": "com.sparklide.snapsrch",
+    "description": "Search with Snapsrch",
+    "macosVersion": "11.0",
+    "popclipVersion": 4069,
+    "regularExpression": "\\S+",
+    "entitlements": [
+        "dynamic"
+    ]
+}
