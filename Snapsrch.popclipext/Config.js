@@ -1,4 +1,4 @@
-const numberOfCustomActions = 5;
+const numberOfCustomActions = 12;
 
 const options = new Array();
 options.push({
@@ -15,12 +15,14 @@ for (let i = 1; i <= numberOfCustomActions; i++) {
     options.push({
         identifier: `customAction${i}`,
         type: "string",
-        label: `Action${i} Name`
+        label: `Name`,
+        inset: true
     });
     options.push({
         identifier: `customAction${i}Icon`,
         type: "string",
-        label: `Action${i} Icon`
+        label: `Icon`,
+        inset: true
     });
 }
 
